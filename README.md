@@ -23,7 +23,7 @@ The environment is built on a **Host-Only Network** to ensure total isolation fr
 
 3️⃣**Splunk Enterprise VM (SIEM):** Acts as the central nervous system for log ingestion, parsing, and dashboarding.
 
-![Architecture]("D:\images\LabArchitecture.png")
+![Architecture](images\LabArchitecture.png)
 
 ---
 **NETWORK CONFIGURATION**
@@ -77,20 +77,20 @@ The environment is built on a **Host-Only Network** to ensure total isolation fr
 ## PROJECT VISUALIZATION 
 
 ### 1. Virtualization Environment
-![Lab environment]("D:\images\environment.png")
+![Lab environment](images\environment.png)
 *Snapshot of the Oracle VM VirtualBox manager showing the three-tier lab architecture (Attacker, Victim, SIEM) running on an isolated host-only network.*
 
 
 ### 2. Network Reconnaissance
-![Nmap Scan Result]("D:\images\kali.png")
+![Nmap Scan Result](images\kali.png)
 *Executing a Nmap stealth scan to identify open ports on the target Windows machine.*
 
 ### 3. Local Security Logs
-![Windows Event Viewer]("D:\images\Windows.png")
+![Windows Event Viewer](images\Windows.png)
 *Viewing Event ID 4625 (An account failed to log on) within the Windows Event Viewer. This confirms that the OS correctly logged the brute-force attempts locally before forwarding them to Splunk.*
 
 ### 4. Security Analytics Dashboard
-![Splunk Dashboard]("D:\images\Dashboard.jpeg")
+![Splunk Dashboard](images\Dashboard.jpeg)
  *A custom **Splunk Audit Trail Dashboard** visualizing user activities and object modifications.*
 
 --- 
@@ -116,4 +116,5 @@ The environment is built on a **Host-Only Network** to ensure total isolation fr
 
 
 **Author:** Deepsikha Singh  
+
 *Aspiring SOC Analyst | Cybersecurity Enthusiast*
