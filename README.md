@@ -90,7 +90,8 @@ The environment is built on a **Host-Only Network** to ensure total isolation fr
 *Viewing Event ID 4625 (An account failed to log on) within the Windows Event Viewer. This confirms that the OS correctly logged the brute-force attempts locally before forwarding them to Splunk.*
 
 ### 4. Security Analytics Dashboard
-![Splunk Dashboard](images/Dashboard.jpeg)
+![Splunk Dashboard](images
+/Dashboard.jpeg)
  *A custom **Splunk Audit Trail Dashboard** visualizing user activities and object modifications.*
 
 --- 
@@ -118,4 +119,5 @@ The environment is built on a **Host-Only Network** to ensure total isolation fr
 **Author:** Deepsikha Singh  
 
 *Aspiring SOC Analyst | Cybersecurity Enthusiast*
+
 
